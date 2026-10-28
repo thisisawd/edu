@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <title>Circe: an island rising from an open book</title>
+  <defs>
+    <linearGradient id="sky" x2="0.6" y2="1"><stop stop-color="#f6c18b"/><stop offset="1" stop-color="#c97159"/></linearGradient>
+    <linearGradient id="sun" x2="0" y2="1"><stop stop-color="#fff0ba"/><stop offset="1" stop-color="#ffcf83"/></linearGradient>
+    <linearGradient id="pages" x2="0" y2="1"><stop stop-color="#fff7df"/><stop offset="1" stop-color="#e7cfac"/></linearGradient>
+    <clipPath id="frame"><rect width="320" height="320" rx="72"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="320" height="320" fill="url(#sky)"/>
+    <circle cx="160" cy="119" r="82" fill="none" stroke="#fddaa2" stroke-opacity=".45"/>
+    <circle cx="160" cy="119" r="66" fill="url(#sun)"/>
+    <path d="M0 201q63-28 120-6t105-3 95 5v123H0Z" fill="#4a7773"/>
+    <path d="M0 233q68-19 127-3t110-4 83 7v87H0Z" fill="#315c61"/>
+    <path d="M0 267q68-17 127 0t110-4 83 7v50H0Z" fill="#254851"/>
+    <path d="m107 193 13-27 21-4 13-26 24 12 16 24 26 21Z" fill="#3c5958"/>
+    <path d="M147 167v-48q13-19 26 0v48" fill="#efcf98"/>
+    <path d="M154 167v-46q6-10 12 0v46" fill="#805d50"/>
+    <path d="M142 166h36m-38 7h40" stroke="#edcd98" stroke-width="5" stroke-linecap="round"/>
+    <path d="M52 204q53-15 108 10 55-25 108-10v67q-55-12-108 12-53-24-108-12Z" fill="#183d48"/>
+    <path d="M56 197q50-15 104 11 54-26 104-11v65q-52-12-104 13-52-25-104-13Z" fill="url(#pages)"/>
+    <path d="M160 209v64" stroke="#c49e79" stroke-width="3"/>
+    <g fill="none" stroke="#b89978" stroke-width="2.5" stroke-linecap="round">
+      <path d="M74 216q31-3 64 10m-64 4q31-3 64 10m-64 4q31-3 64 10"/>
+      <path d="M182 226q33-13 64-10m-64 24q33-13 64-10m-64 24q33-13 64-10"/>
+    </g>
+    <path d="M278 182q-4-49-33-75M43 180q4-49 33-75" stroke="#f9dda9" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <g fill="#f9dda9">
+      <ellipse cx="268" cy="135" rx="5" ry="12" transform="rotate(-40 268 135)"/><ellipse cx="280" cy="153" rx="5" ry="12" transform="rotate(16 280 153)"/>
+      <ellipse cx="255" cy="117" rx="4" ry="10" transform="rotate(-43 255 117)"/><ellipse cx="267" cy="163" rx="5" ry="12" transform="rotate(-45 267 163)"/>
+      <ellipse cx="52" cy="135" rx="5" ry="12" transform="rotate(40 52 135)"/><ellipse cx="40" cy="153" rx="5" ry="12" transform="rotate(-16 40 153)"/>
+      <ellipse cx="65" cy="117" rx="4" ry="10" transform="rotate(43 65 117)"/><ellipse cx="53" cy="163" rx="5" ry="12" transform="rotate(45 53 163)"/>
+      <path d="m251 57 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z"/><circle cx="83" cy="71" r="2"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="318" height="318" rx="71" fill="none" stroke="#ffffff" stroke-opacity=".3" stroke-width="2"/>
+</svg>

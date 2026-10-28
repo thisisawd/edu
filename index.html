@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#f6f5fa" />
+  <meta name="description" content="Your little home for big discoveries. Explore science and literature with the thisisawd collection of educational quizzes." />
+  <title>EDU by thisisawd | Your quiz collection</title>
+  <link rel="icon" href="artwork/edu.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#quiz-library">Skip to quizzes</a>
+  <header class="site-header">
+    <a class="brand" href="./" aria-label="EDU by thisisawd home">
+      <img src="artwork/edu.svg" width="38" height="38" alt="" />
+      <span>edu<span class="brand-dot">.</span></span>
+      <span class="brand-byline">by thisisawd</span>
+    </a>
+    <span class="header-note">A little practice. A lot of possibility.</span>
+  </header>
+  <main>
+    <section class="intro" aria-labelledby="page-title">
+      <p class="eyebrow"><span class="eyebrow-spark" aria-hidden="true">&#10022;</span> A HOME FOR CURIOUS MINDS</p>
+      <h1 id="page-title">Big discoveries.<br /><span>One little tap.</span></h1>
+      <p class="intro-copy">A collection of quizzes to help things click.<br class="desktop-break" /> Pick your world, follow your curiosity, and make it your own.</p>
+    </section>
+    <section class="library" id="quiz-library" aria-labelledby="library-title">
+      <div class="library-toolbar">
+        <div class="library-title"><span class="grid-symbol" aria-hidden="true"><i></i><i></i><i></i><i></i></span><h2 id="library-title">Your learning apps</h2><span class="library-total">03</span></div>
+        <p class="library-note">Made for your next &ldquo;aha!&rdquo;</p>
+      </div>
+      <div class="library-controls" id="library-controls" hidden>
+        <div class="subject-filters" role="group" aria-label="Filter quizzes by subject">
+          <button type="button" class="filter-button" data-subject="all" aria-pressed="true">All quizzes</button>
+          <button type="button" class="filter-button" data-subject="science" aria-pressed="false">Science</button>
+          <button type="button" class="filter-button" data-subject="literature" aria-pressed="false">Literature</button>
+        </div>
+        <div class="search-control">
+          <label for="quiz-search">Find a quiz</label>
+          <div class="search-field"><svg class="search-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg><input id="quiz-search" type="search" autocomplete="off" placeholder="Try science or Circe" /></div>
+        </div>
+      </div>
+      <div class="home-screen">
+        <div class="wallpaper-orbit wallpaper-orbit-one" aria-hidden="true"></div>
+        <div class="wallpaper-orbit wallpaper-orbit-two" aria-hidden="true"></div>
+        <div class="app-grid" id="app-grid">
+          <article class="app-card" data-subject="science" data-search="amplify quiz science grade 6 six flashcards nine units biology earth space">
+            <a class="app-link" href="https://thisisawd.github.io/Amplify_Quiz/" aria-labelledby="amplify-title" aria-describedby="amplify-description">
+              <div class="app-artwork artwork-amplify"><img src="artwork/amplify.svg" width="320" height="320" alt="" /><span class="open-indicator" aria-hidden="true">&#8599;</span></div>
+              <h3 id="amplify-title">Amplify Quiz</h3>
+              <p class="app-subject">SCIENCE &middot; GRADE 6</p>
+              <p class="app-description" id="amplify-description">Small questions. Big science.<br />Explore nine units, one discovery at a time.</p>
+              <span class="app-feature">Quizzes &amp; flashcards</span>
+            </a>
+          </article>
+          <article class="app-card" data-subject="literature" data-search="circe reader odyssey literature reading books mythology madeline miller chapter quiz">
+            <a class="app-link" href="https://thisisawd.github.io/circe/" aria-labelledby="circe-title" aria-describedby="circe-description">
+              <div class="app-artwork artwork-circe"><img src="artwork/circe.svg" width="320" height="320" alt="" /><span class="open-indicator" aria-hidden="true">&#8599;</span></div>
+              <h3 id="circe-title">Circe</h3>
+              <p class="app-subject">LITERATURE &middot; READING</p>
+              <p class="app-description" id="circe-description">Every chapter, a new adventure.<br />Find your way through a reader&rsquo;s odyssey.</p>
+              <span class="app-feature">Chapter-by-chapter quizzes</span>
+            </a>
+          </article>
+          <article class="app-card" data-subject="science" data-search="charge lab triboelectric electricity static electrons physics voice read aloud thirteen 13 lessons quiz">
+            <a class="app-link" href="https://thisisawd.github.io/triboelectric/" aria-labelledby="charge-title" aria-describedby="charge-description">
+              <div class="app-artwork artwork-charge"><img src="artwork/charge-lab.svg" width="320" height="320" alt="" /><span class="open-indicator" aria-hidden="true">&#8599;</span></div>
+              <h3 id="charge-title">Charge Lab</h3>
+              <p class="app-subject">SCIENCE &middot; ELECTRICITY</p>
+              <p class="app-description" id="charge-description">Find your spark.<br />Make static electricity click with guided practice.</p>
+              <span class="app-feature">13 lessons &amp; voice practice</span>
+            </a>
+          </article>
+        </div>
+        <div class="empty-state" id="empty-state" hidden>
+          <span class="empty-spark" aria-hidden="true">&#10022;</span>
+          <h3>No quizzes found. Still plenty to discover.</h3>
+          <p>Try a different title or subject, or bring all three quizzes back.</p>
+          <button class="reset-button" type="button" id="reset-button">Show all quizzes</button>
+        </div>
+        <div class="screen-footer"><p id="results-status" role="status" aria-atomic="true">3 quizzes, ready when you are.</p><span class="home-indicator" aria-hidden="true"></span></div>
+      </div>
+      <p class="library-caption"><span aria-hidden="true">&#10022;</span> Different worlds. The same curious you.</p>
+    </section>
+    <section class="learning-note" aria-labelledby="learning-note-title">
+      <span class="note-icon" aria-hidden="true">+</span>
+      <div><h2 id="learning-note-title">A little more understanding, every time.</h2><p>No perfect scores required. Just a question, a little curiosity, and another go.</p></div>
+    </section>
+  </main>
+  <footer class="site-footer"><p><strong>edu.</strong> by thisisawd</p><p>Made for learning. Built with curiosity.</p></footer>
+  <noscript><p class="noscript-note">All three quizzes are ready to open. Enable JavaScript to search and filter the collection.</p></noscript>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <title>Charge Lab: a lightning bolt connecting positive and negative charges</title>
+  <defs>
+    <linearGradient id="sky" x2="0.8" y2="1"><stop stop-color="#a497d5"/><stop offset="1" stop-color="#5a478e"/></linearGradient>
+    <linearGradient id="bolt" x2="0.6" y2="1"><stop stop-color="#fff2b5"/><stop offset="1" stop-color="#f5bc72"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#ead9ff" stop-opacity=".5"/><stop offset="1" stop-color="#ead9ff" stop-opacity="0"/></radialGradient>
+    <linearGradient id="positive" x2="1" y2="1"><stop stop-color="#ffdfb4"/><stop offset="1" stop-color="#edaa8c"/></linearGradient>
+    <linearGradient id="negative" x2="1" y2="1"><stop stop-color="#d2f3e5"/><stop offset="1" stop-color="#88c4c7"/></linearGradient>
+    <clipPath id="frame"><rect width="320" height="320" rx="72"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <rect width="320" height="320" fill="url(#sky)"/>
+    <circle cx="157" cy="144" r="153" fill="url(#glow)"/>
+    <circle cx="158" cy="157" r="102" fill="none" stroke="#e0d4f4" stroke-opacity=".27"/>
+    <circle cx="158" cy="157" r="125" fill="none" stroke="#e0d4f4" stroke-opacity=".15"/>
+    <ellipse cx="158" cy="157" rx="142" ry="51" transform="rotate(-37 158 157)" fill="none" stroke="#e9ddf9" stroke-width="3" stroke-opacity=".8"/>
+    <path d="m181 53-77 115h45l-15 94 87-131h-51l25-78Z" fill="#463779" fill-opacity=".2" transform="translate(5 8)"/>
+    <path d="m176 50-77 115h45l-15 94 87-131h-51l25-78Z" fill="url(#bolt)"/>
+    <path d="m168 75-51 78h29" fill="none" stroke="#fff9d9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="248" cy="92" r="33" fill="#403169" fill-opacity=".12" transform="translate(1 5)"/>
+    <circle cx="248" cy="92" r="33" fill="url(#positive)"/>
+    <path d="M248 79v26m-13-13h26" stroke="#855042" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="69" cy="225" r="37" fill="#403169" fill-opacity=".15" transform="translate(1 5)"/>
+    <circle cx="69" cy="225" r="37" fill="url(#negative)"/>
+    <path d="M55 225h28" stroke="#2e666e" stroke-width="5" stroke-linecap="round"/>
+    <g fill="#efe9ff">
+      <path d="m57 78 3 9 9 3-9 3-3 9-3-9-9-3 9-3Z"/>
+      <path d="m258 244 2 6 6 2-6 2-2 6-2-6-6-2 6-2Z"/>
+      <circle cx="94" cy="45" r="2.5"/><circle cx="265" cy="168" r="3"/><circle cx="194" cy="276" r="2"/>
+    </g>
+    <path d="M137 288h42" stroke="#c3b4e1" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <rect x="1" y="1" width="318" height="318" rx="71" fill="none" stroke="#ffffff" stroke-opacity=".25" stroke-width="2"/>
+</svg>
